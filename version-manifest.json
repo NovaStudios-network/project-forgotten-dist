@@ -1,5 +1,5 @@
 {
-  "latest": "0.2.9",
+  "latest": "0.2.10",
   "launcher": {
     "version": "1.0.0",
     "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.3/ProjectForgottenLauncher.jar",
@@ -7,6 +7,11 @@
     "size": 334651
   },
   "news": [
+    {
+      "title": "Fix pause/death kicking to main menu and dead-save bug",
+      "date": "2026-06-17",
+      "body": "ESC pause no longer hijacks the camera to the menu panorama. Menu nav is arrow keys + Enter only (was WASD/Space) so movement/jump cannot auto-activate Quit to Title while paused or dead. Quitting to title while dead respawns first; saves never persist a dead 0-HP state, fixing rejoining at the death spot with no hearts. Bumps to 0.2.10."
+    },
     {
       "title": "Main menu now uses the cinematic key-art backdrop",
       "date": "2026-06-17",
@@ -103,6 +108,17 @@
           "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.9/ProjectForgotten-0.2.9.jar",
           "sha256": "86316058a6a257cc4f17dbe71e6682a8e1e8b974af607f1fd8aa715b9f8e777c",
           "size": 6545326
+        }
+      ]
+    },
+    "0.2.10": {
+      "main": "ProjectForgotten-0.2.10.jar",
+      "files": [
+        {
+          "path": "ProjectForgotten-0.2.10.jar",
+          "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.10/ProjectForgotten-0.2.10.jar",
+          "sha256": "e85edb8c9908f06e304acd318cc20cd38790cbee4c50362d06069511a760baba",
+          "size": 6545430
         }
       ]
     }
