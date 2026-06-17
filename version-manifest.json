@@ -1,1 +1,45 @@
-{"latest":"0.2.3","launcher":{"version":"1.0.0","url":"https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.3/ProjectForgottenLauncher.jar","sha256":"6f640b9ab28bc41c98ab43799ac23ee77bfdd69770a4fecef4214a4b472fe120","size":334651},"news":[{"title":"Self-updating launcher","date":"2026-06-17","body":"The launcher now updates itself and the game automatically."},{"title":"Phase 2.3 - UI Overhaul","date":"2026-06-16","body":"Menu panorama, Beta health bar, redesigned inventory/furnace, settings sliders, PF branding."}],"versions":{"0.2.3":{"main":"ProjectForgotten-0.2.3.jar","files":[{"path":"ProjectForgotten-0.2.3.jar","url":"https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.3/ProjectForgotten-0.2.3.jar","sha256":"808cd057c5db871632e81ac2b8a8fdd37b5786278d1576f8d78f47a862209331","size":4427333}]}}}
+{
+  "latest": "0.2.4",
+  "launcher": {
+    "version": "1.0.0",
+    "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.3/ProjectForgottenLauncher.jar",
+    "sha256": "6f640b9ab28bc41c98ab43799ac23ee77bfdd69770a4fecef4214a4b472fe120",
+    "size": 334651
+  },
+  "news": [
+    {
+      "title": "Self-updating launcher",
+      "date": "2026-06-17",
+      "body": "The launcher now updates itself and the game automatically."
+    },
+    {
+      "title": "Phase 2.3 - UI Overhaul",
+      "date": "2026-06-16",
+      "body": "Menu panorama, Beta health bar, redesigned inventory/furnace, settings sliders, PF branding."
+    }
+  ],
+  "versions": {
+    "0.2.3": {
+      "main": "ProjectForgotten-0.2.3.jar",
+      "files": [
+        {
+          "path": "ProjectForgotten-0.2.3.jar",
+          "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.3/ProjectForgotten-0.2.3.jar",
+          "sha256": "808cd057c5db871632e81ac2b8a8fdd37b5786278d1576f8d78f47a862209331",
+          "size": 4427333
+        }
+      ]
+    },
+    "0.2.4": {
+      "main": "ProjectForgotten-0.2.4.jar",
+      "files": [
+        {
+          "path": "ProjectForgotten-0.2.4.jar",
+          "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.4/ProjectForgotten-0.2.4.jar",
+          "sha256": "068328b7fb9ea17ce225f5827931ebdd8f65068a3d01899d77b2a79be374a561",
+          "size": 4427333
+        }
+      ]
+    }
+  }
+}
