@@ -1,5 +1,5 @@
 {
-  "latest": "0.2.5",
+  "latest": "0.2.6",
   "launcher": {
     "version": "1.0.0",
     "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.3/ProjectForgottenLauncher.jar",
@@ -49,6 +49,17 @@
           "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.5/ProjectForgotten-0.2.5.jar",
           "sha256": "be86851fb60507e7cb3fcfce158169ee5741c8144f49112b00cd6df3896f0a25",
           "size": 4437577
+        }
+      ]
+    },
+    "0.2.6": {
+      "main": "ProjectForgotten-0.2.6.jar",
+      "files": [
+        {
+          "path": "ProjectForgotten-0.2.6.jar",
+          "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.6/ProjectForgotten-0.2.6.jar",
+          "sha256": "fb27a8dfdd5423e315449f3ed05cc7a2f40311f1dfcdcc4287aca5c41ffc6019",
+          "size": 4441204
         }
       ]
     }
