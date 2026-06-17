@@ -1,5 +1,5 @@
 {
-  "latest": "0.2.7",
+  "latest": "0.2.8",
   "launcher": {
     "version": "1.0.0",
     "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.3/ProjectForgottenLauncher.jar",
@@ -7,6 +7,11 @@
     "size": 334651
   },
   "news": [
+    {
+      "title": "Menu key-art backdrop system + auto-updating launcher news log",
+      "date": "2026-06-17",
+      "body": "Add a cinematic image backdrop for the main menu: drop a PNG at"
+    },
     {
       "title": "Self-updating launcher",
       "date": "2026-06-17",
@@ -71,6 +76,17 @@
           "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.7/ProjectForgotten-0.2.7.jar",
           "sha256": "8689c93c7b34157a01debcd6e58b29de6b255f35756445676844ff6b8c75fc2e",
           "size": 4442156
+        }
+      ]
+    },
+    "0.2.8": {
+      "main": "ProjectForgotten-0.2.8.jar",
+      "files": [
+        {
+          "path": "ProjectForgotten-0.2.8.jar",
+          "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.8/ProjectForgotten-0.2.8.jar",
+          "sha256": "2de6b7400f2772dfc420d11967fb13538f215402694797584b51711feec9655b",
+          "size": 4446990
         }
       ]
     }
