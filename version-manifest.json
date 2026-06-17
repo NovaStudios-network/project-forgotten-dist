@@ -1,5 +1,5 @@
 {
-  "latest": "0.2.10",
+  "latest": "0.2.11",
   "launcher": {
     "version": "1.0.0",
     "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.3/ProjectForgottenLauncher.jar",
@@ -7,6 +7,11 @@
     "size": 334651
   },
   "news": [
+    {
+      "title": "Animated key-art menu background + new title font + FRAGMENT panel",
+      "date": "2026-06-17",
+      "body": "The key-art image is the menu background again, now brought to life: pulsing sunset glow, burning campfire with rising embers (and a distant second fire), drifting valley haze, water shimmer, and a slow Ken Burns drift; lighter scrim so the art stays vivid. New tall-condensed blocky pixel title logo (shadow + chromatic fringes + scan-streaks). Replaced Latest Log with a cryptic rotating FRAGMENT panel. All motion honours Reduce Motion. Bumps to 0.2.11."
+    },
     {
       "title": "Fix pause/death kicking to main menu and dead-save bug",
       "date": "2026-06-17",
@@ -119,6 +124,17 @@
           "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.10/ProjectForgotten-0.2.10.jar",
           "sha256": "e85edb8c9908f06e304acd318cc20cd38790cbee4c50362d06069511a760baba",
           "size": 6545430
+        }
+      ]
+    },
+    "0.2.11": {
+      "main": "ProjectForgotten-0.2.11.jar",
+      "files": [
+        {
+          "path": "ProjectForgotten-0.2.11.jar",
+          "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.11/ProjectForgotten-0.2.11.jar",
+          "sha256": "c6215e8d22eaf769489b261264e753c625e14bb25ef22ea80e896a768eefdfc0",
+          "size": 6547630
         }
       ]
     }
