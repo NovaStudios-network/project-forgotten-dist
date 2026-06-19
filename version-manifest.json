@@ -1,5 +1,5 @@
 {
-  "latest": "0.2.11",
+  "latest": "0.3.0",
   "launcher": {
     "version": "1.0.0",
     "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.3/ProjectForgottenLauncher.jar",
@@ -7,6 +7,11 @@
     "size": 334651
   },
   "news": [
+    {
+      "title": "World generation & atmosphere overhaul: the Forgotten system, biomes, flooded caves, ambience",
+      "date": "2026-06-19",
+      "body": "Adds world/Structures.java (campsites, watchtowers, wells, cabins, ruins, mine entrances, torch-lit paths) placed deterministically and seamlessly across chunks. New biome system (desert/snowy/swamp/temperate). Deeper oceans + higher landmasses. Flooded caves with underground lakes. In-world ambience. Adds --gentest headless smoke test (1536 chunks x 6 seeds, zero failures). Bumps to 0.3.0."
+    },
     {
       "title": "Animated key-art menu background + new title font + FRAGMENT panel",
       "date": "2026-06-17",
@@ -135,6 +140,17 @@
           "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.11/ProjectForgotten-0.2.11.jar",
           "sha256": "c6215e8d22eaf769489b261264e753c625e14bb25ef22ea80e896a768eefdfc0",
           "size": 6547630
+        }
+      ]
+    },
+    "0.3.0": {
+      "main": "ProjectForgotten-0.3.0.jar",
+      "files": [
+        {
+          "path": "ProjectForgotten-0.3.0.jar",
+          "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.3.0/ProjectForgotten-0.3.0.jar",
+          "sha256": "aaedfa94ee2313f48622c7f0f7d15fadabc57d39e9289d241d15099a073a4c0b",
+          "size": 6556390
         }
       ]
     }
