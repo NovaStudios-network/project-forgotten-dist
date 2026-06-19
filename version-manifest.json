@@ -1,5 +1,5 @@
 {
-  "latest": "0.4.0",
+  "latest": "0.4.1",
   "launcher": {
     "version": "1.0.0",
     "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.3/ProjectForgottenLauncher.jar",
@@ -7,6 +7,11 @@
     "size": 334651
   },
   "news": [
+    {
+      "title": "Fix: register furnace crafting recipe (8 cobblestone ring)",
+      "date": "2026-06-19",
+      "body": "The furnace system shipped in 0.4.0 but the crafting recipe itself was never registered, so a correct 8-cobble ring produced no output. Added a ring() shape check (cobblestone -> furnace) plus a progtest case. 30/30 checks pass."
+    },
     {
       "title": "Furnaces, smelting, tool progression: iron/diamond tools, durability, mining tiers",
       "date": "2026-06-19",
@@ -41,11 +46,6 @@
       "title": "Menu key-art backdrop system + auto-updating launcher news log",
       "date": "2026-06-17",
       "body": "Add a cinematic image backdrop for the main menu: drop a PNG at"
-    },
-    {
-      "title": "Self-updating launcher",
-      "date": "2026-06-17",
-      "body": "The launcher now updates itself and the game automatically."
     }
   ],
   "versions": {
@@ -178,6 +178,17 @@
           "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.4.0/ProjectForgotten-0.4.0.jar",
           "sha256": "ec535da80fe067ef4bfee41950c1cc322aa3672527c405e3312d29f069fda0e6",
           "size": 6562813
+        }
+      ]
+    },
+    "0.4.1": {
+      "main": "ProjectForgotten-0.4.1.jar",
+      "files": [
+        {
+          "path": "ProjectForgotten-0.4.1.jar",
+          "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.4.1/ProjectForgotten-0.4.1.jar",
+          "sha256": "1667f32d486402c30a8403dcb05dc9afad04e95663539a694cabbccd8146c301",
+          "size": 6562958
         }
       ]
     }
