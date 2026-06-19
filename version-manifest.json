@@ -1,5 +1,5 @@
 {
-  "latest": "0.3.0",
+  "latest": "0.3.1",
   "launcher": {
     "version": "1.0.0",
     "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.3/ProjectForgottenLauncher.jar",
@@ -7,6 +7,11 @@
     "size": 334651
   },
   "news": [
+    {
+      "title": "Underground generation fix: claustrophobic 2011-style caves + scarce uniform ores",
+      "date": "2026-06-19",
+      "body": "Caves: removed open caverns, tightened tunnel radius, added a second crossing tunnel system for dense maze-like networks. Ravines rarer/narrower/deeper, exposing tunnels. Mineshafts descend deeper with plank walkways and log supports."
+    },
     {
       "title": "World generation & atmosphere overhaul: the Forgotten system, biomes, flooded caves, ambience",
       "date": "2026-06-19",
@@ -151,6 +156,17 @@
           "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.3.0/ProjectForgotten-0.3.0.jar",
           "sha256": "aaedfa94ee2313f48622c7f0f7d15fadabc57d39e9289d241d15099a073a4c0b",
           "size": 6556390
+        }
+      ]
+    },
+    "0.3.1": {
+      "main": "ProjectForgotten-0.3.1.jar",
+      "files": [
+        {
+          "path": "ProjectForgotten-0.3.1.jar",
+          "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.3.1/ProjectForgotten-0.3.1.jar",
+          "sha256": "6733d67d0631840b2d4be5b1cc1384482a1600bbd1261645b0619dfbbeda277a",
+          "size": 6557216
         }
       ]
     }
