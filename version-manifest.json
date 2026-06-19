@@ -1,5 +1,5 @@
 {
-  "latest": "0.3.1",
+  "latest": "0.4.0",
   "launcher": {
     "version": "1.0.0",
     "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.3/ProjectForgottenLauncher.jar",
@@ -7,6 +7,11 @@
     "size": 334651
   },
   "news": [
+    {
+      "title": "Furnaces, smelting, tool progression: iron/diamond tools, durability, mining tiers",
+      "date": "2026-06-19",
+      "body": "Smelting: added Sand->Glass alongside iron/gold ore; data-driven smelt map. Fuel system generalised off coal-only - Coal=8 smelts, Logs/Planks=1.5, Wooden tools=1; burn + cook progress persist."
+    },
     {
       "title": "Underground generation fix: claustrophobic 2011-style caves + scarce uniform ores",
       "date": "2026-06-19",
@@ -41,11 +46,6 @@
       "title": "Self-updating launcher",
       "date": "2026-06-17",
       "body": "The launcher now updates itself and the game automatically."
-    },
-    {
-      "title": "Phase 2.3 - UI Overhaul",
-      "date": "2026-06-16",
-      "body": "Menu panorama, Beta health bar, redesigned inventory/furnace, settings sliders, PF branding."
     }
   ],
   "versions": {
@@ -167,6 +167,17 @@
           "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.3.1/ProjectForgotten-0.3.1.jar",
           "sha256": "6733d67d0631840b2d4be5b1cc1384482a1600bbd1261645b0619dfbbeda277a",
           "size": 6557216
+        }
+      ]
+    },
+    "0.4.0": {
+      "main": "ProjectForgotten-0.4.0.jar",
+      "files": [
+        {
+          "path": "ProjectForgotten-0.4.0.jar",
+          "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.4.0/ProjectForgotten-0.4.0.jar",
+          "sha256": "ec535da80fe067ef4bfee41950c1cc322aa3672527c405e3312d29f069fda0e6",
+          "size": 6562813
         }
       ]
     }
