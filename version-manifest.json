@@ -1,5 +1,5 @@
 {
-  "latest": "0.4.2",
+  "latest": "0.5.0",
   "launcher": {
     "version": "1.0.0",
     "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.3/ProjectForgottenLauncher.jar",
@@ -7,6 +7,11 @@
     "size": 334651
   },
   "news": [
+    {
+      "title": "Gave the menus a proper pass — one consistent look across every screen",
+      "date": "2026-06-22",
+      "body": "Every menu page now shares one design language: same panels, same buttons, and a gold stamp-and-rule header (drawPanelHeader). Added a danger button style that tints red on focus for Quit / Save & Leave / Delete."
+    },
     {
       "title": "Fix: die in the void instead of falling forever out of the world",
       "date": "2026-06-22",
@@ -41,11 +46,6 @@
       "title": "Fix pause/death kicking to main menu and dead-save bug",
       "date": "2026-06-17",
       "body": "ESC pause no longer hijacks the camera to the menu panorama. Menu nav is arrow keys + Enter only (was WASD/Space) so movement/jump cannot auto-activate Quit to Title while paused or dead. Quitting to title while dead respawns first; saves never persist a dead 0-HP state, fixing rejoining at the death spot with no hearts. Bumps to 0.2.10."
-    },
-    {
-      "title": "Main menu now uses the cinematic key-art backdrop",
-      "date": "2026-06-17",
-      "body": "The menu renders the supplied concept-art image full-screen, with a slow Ken"
     }
   ],
   "versions": {
@@ -200,6 +200,17 @@
           "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.4.2/ProjectForgotten-0.4.2.jar",
           "sha256": "bd92bf5b3c56f5d6011d34f1fda3bf1cba91233543836eaa72d250e840fb5bfa",
           "size": 6563069
+        }
+      ]
+    },
+    "0.5.0": {
+      "main": "ProjectForgotten-0.5.0.jar",
+      "files": [
+        {
+          "path": "ProjectForgotten-0.5.0.jar",
+          "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.5.0/ProjectForgotten-0.5.0.jar",
+          "sha256": "c1efbc26825f7152dc6e2451dc3587d5202665fac3bfc7fc8f1a9d95c6fe93d1",
+          "size": 6564160
         }
       ]
     }
