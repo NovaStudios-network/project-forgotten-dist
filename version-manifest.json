@@ -1,5 +1,5 @@
 {
-  "latest": "0.6.0",
+  "latest": "0.6.1",
   "launcher": {
     "version": "1.0.0",
     "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.3/ProjectForgottenLauncher.jar",
@@ -7,6 +7,11 @@
     "size": 334651
   },
   "news": [
+    {
+      "title": "Credits & Multiplayer now live in the real menu scene, camera craning to the castle",
+      "date": "2026-06-22",
+      "body": "Dropped the separate campfire scene. Both pages stay on the live key-art (clouds/fog still moving) while a new push param on MenuBackground.render slowly cranes the framing toward the distant castle. Shared cinematic title-card: letterbox bars ease in, a soft scrim darkens only the left edge, and the names fade in as a left-aligned column with a big ember-gold hero. Minimal Return hint, no box. UI stays under 20% of the screen."
+    },
     {
       "title": "Credits are a campfire now — found a fire still burning in the woods at dusk",
       "date": "2026-06-22",
@@ -41,11 +46,6 @@
       "title": "Underground generation fix: claustrophobic 2011-style caves + scarce uniform ores",
       "date": "2026-06-19",
       "body": "Caves: removed open caverns, tightened tunnel radius, added a second crossing tunnel system for dense maze-like networks. Ravines rarer/narrower/deeper, exposing tunnels. Mineshafts descend deeper with plank walkways and log supports."
-    },
-    {
-      "title": "World generation & atmosphere overhaul: the Forgotten system, biomes, flooded caves, ambience",
-      "date": "2026-06-19",
-      "body": "Adds world/Structures.java (campsites, watchtowers, wells, cabins, ruins, mine entrances, torch-lit paths) placed deterministically and seamlessly across chunks. New biome system (desert/snowy/swamp/temperate). Deeper oceans + higher landmasses. Flooded caves with underground lakes. In-world ambience. Adds --gentest headless smoke test (1536 chunks x 6 seeds, zero failures). Bumps to 0.3.0."
     }
   ],
   "versions": {
@@ -233,6 +233,17 @@
           "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.6.0/ProjectForgotten-0.6.0.jar",
           "sha256": "d3863b677381e6427fd77e745e92164f6c2a206e58943a953b0e034837a22c00",
           "size": 6568403
+        }
+      ]
+    },
+    "0.6.1": {
+      "main": "ProjectForgotten-0.6.1.jar",
+      "files": [
+        {
+          "path": "ProjectForgotten-0.6.1.jar",
+          "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.6.1/ProjectForgotten-0.6.1.jar",
+          "sha256": "db3023d52528ec1f91f9cc6788c7785998e2d8b2d92ecd3fb46d099d5d528d95",
+          "size": 6565189
         }
       ]
     }
