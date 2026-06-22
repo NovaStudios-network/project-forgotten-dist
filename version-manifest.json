@@ -1,5 +1,5 @@
 {
-  "latest": "0.4.1",
+  "latest": "0.4.2",
   "launcher": {
     "version": "1.0.0",
     "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.3/ProjectForgottenLauncher.jar",
@@ -7,6 +7,11 @@
     "size": 334651
   },
   "news": [
+    {
+      "title": "Fix: die in the void instead of falling forever out of the world",
+      "date": "2026-06-22",
+      "body": "Falling past the world floor (y < -16) now applies heavy continuous damage (14 hp/s) with a heart flash, ending at the death screen with 'You fell out of the world.' ~1.5s from full health, so it reads as suffocating in the void rather than an endless fall."
+    },
     {
       "title": "Fix: register furnace crafting recipe (8 cobblestone ring)",
       "date": "2026-06-19",
@@ -41,11 +46,6 @@
       "title": "Main menu now uses the cinematic key-art backdrop",
       "date": "2026-06-17",
       "body": "The menu renders the supplied concept-art image full-screen, with a slow Ken"
-    },
-    {
-      "title": "Menu key-art backdrop system + auto-updating launcher news log",
-      "date": "2026-06-17",
-      "body": "Add a cinematic image backdrop for the main menu: drop a PNG at"
     }
   ],
   "versions": {
@@ -189,6 +189,17 @@
           "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.4.1/ProjectForgotten-0.4.1.jar",
           "sha256": "1667f32d486402c30a8403dcb05dc9afad04e95663539a694cabbccd8146c301",
           "size": 6562958
+        }
+      ]
+    },
+    "0.4.2": {
+      "main": "ProjectForgotten-0.4.2.jar",
+      "files": [
+        {
+          "path": "ProjectForgotten-0.4.2.jar",
+          "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.4.2/ProjectForgotten-0.4.2.jar",
+          "sha256": "bd92bf5b3c56f5d6011d34f1fda3bf1cba91233543836eaa72d250e840fb5bfa",
+          "size": 6563069
         }
       ]
     }
