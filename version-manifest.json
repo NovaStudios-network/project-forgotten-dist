@@ -1,5 +1,5 @@
 {
-  "latest": "0.5.0",
+  "latest": "0.5.1",
   "launcher": {
     "version": "1.0.0",
     "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.3/ProjectForgottenLauncher.jar",
@@ -7,6 +7,11 @@
     "size": 334651
   },
   "news": [
+    {
+      "title": "Fix cramped Credits/Multiplayer pages — text no longer runs under the button",
+      "date": "2026-06-22",
+      "body": "The panels were too short for the copy, so body text overlapped the Back button. Rebuilt both pages: vertically-centred panel, a fenced footer (divider + bottom-anchored button) the text can't collide with, tighter wording, and a hero wordmark with room to breathe. Panel heights are derived from content now."
+    },
     {
       "title": "Gave the menus a proper pass — one consistent look across every screen",
       "date": "2026-06-22",
@@ -41,11 +46,6 @@
       "title": "Animated key-art menu background + new title font + FRAGMENT panel",
       "date": "2026-06-17",
       "body": "The key-art image is the menu background again, now brought to life: pulsing sunset glow, burning campfire with rising embers (and a distant second fire), drifting valley haze, water shimmer, and a slow Ken Burns drift; lighter scrim so the art stays vivid. New tall-condensed blocky pixel title logo (shadow + chromatic fringes + scan-streaks). Replaced Latest Log with a cryptic rotating FRAGMENT panel. All motion honours Reduce Motion. Bumps to 0.2.11."
-    },
-    {
-      "title": "Fix pause/death kicking to main menu and dead-save bug",
-      "date": "2026-06-17",
-      "body": "ESC pause no longer hijacks the camera to the menu panorama. Menu nav is arrow keys + Enter only (was WASD/Space) so movement/jump cannot auto-activate Quit to Title while paused or dead. Quitting to title while dead respawns first; saves never persist a dead 0-HP state, fixing rejoining at the death spot with no hearts. Bumps to 0.2.10."
     }
   ],
   "versions": {
@@ -211,6 +211,17 @@
           "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.5.0/ProjectForgotten-0.5.0.jar",
           "sha256": "c1efbc26825f7152dc6e2451dc3587d5202665fac3bfc7fc8f1a9d95c6fe93d1",
           "size": 6564160
+        }
+      ]
+    },
+    "0.5.1": {
+      "main": "ProjectForgotten-0.5.1.jar",
+      "files": [
+        {
+          "path": "ProjectForgotten-0.5.1.jar",
+          "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.5.1/ProjectForgotten-0.5.1.jar",
+          "sha256": "66fdd1892d9197fbcb6ffee018c69d3c754836246586c2bf7ea379e1776524c1",
+          "size": 6564299
         }
       ]
     }
