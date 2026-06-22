@@ -1,5 +1,5 @@
 {
-  "latest": "0.5.1",
+  "latest": "0.6.0",
   "launcher": {
     "version": "1.0.0",
     "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.3/ProjectForgottenLauncher.jar",
@@ -7,6 +7,11 @@
     "size": 334651
   },
   "news": [
+    {
+      "title": "Credits are a campfire now — found a fire still burning in the woods at dusk",
+      "date": "2026-06-22",
+      "body": "Replaced the credits panel with a full in-world scene drawn from the 2D primitives: evening sky gradient + stars + drifting cloud, two parallax pine-silhouette rows with fog, a flickering layered campfire with rising embers, fireflies, and a slow handheld camera sway. The names fade in over the fire (no panel) on a timeline, hero name pulsing in ember-gold. Only control is a carved Return plank that warms and bobs on hover. Ambience: wind, distant birds, faint fire crackle. Respects Reduce Motion."
+    },
     {
       "title": "Fix cramped Credits/Multiplayer pages — text no longer runs under the button",
       "date": "2026-06-22",
@@ -41,11 +46,6 @@
       "title": "World generation & atmosphere overhaul: the Forgotten system, biomes, flooded caves, ambience",
       "date": "2026-06-19",
       "body": "Adds world/Structures.java (campsites, watchtowers, wells, cabins, ruins, mine entrances, torch-lit paths) placed deterministically and seamlessly across chunks. New biome system (desert/snowy/swamp/temperate). Deeper oceans + higher landmasses. Flooded caves with underground lakes. In-world ambience. Adds --gentest headless smoke test (1536 chunks x 6 seeds, zero failures). Bumps to 0.3.0."
-    },
-    {
-      "title": "Animated key-art menu background + new title font + FRAGMENT panel",
-      "date": "2026-06-17",
-      "body": "The key-art image is the menu background again, now brought to life: pulsing sunset glow, burning campfire with rising embers (and a distant second fire), drifting valley haze, water shimmer, and a slow Ken Burns drift; lighter scrim so the art stays vivid. New tall-condensed blocky pixel title logo (shadow + chromatic fringes + scan-streaks). Replaced Latest Log with a cryptic rotating FRAGMENT panel. All motion honours Reduce Motion. Bumps to 0.2.11."
     }
   ],
   "versions": {
@@ -222,6 +222,17 @@
           "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.5.1/ProjectForgotten-0.5.1.jar",
           "sha256": "66fdd1892d9197fbcb6ffee018c69d3c754836246586c2bf7ea379e1776524c1",
           "size": 6564299
+        }
+      ]
+    },
+    "0.6.0": {
+      "main": "ProjectForgotten-0.6.0.jar",
+      "files": [
+        {
+          "path": "ProjectForgotten-0.6.0.jar",
+          "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.6.0/ProjectForgotten-0.6.0.jar",
+          "sha256": "d3863b677381e6427fd77e745e92164f6c2a206e58943a953b0e034837a22c00",
+          "size": 6568403
         }
       ]
     }
