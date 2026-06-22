@@ -1,5 +1,5 @@
 {
-  "latest": "0.7.0",
+  "latest": "0.7.1",
   "launcher": {
     "version": "1.0.0",
     "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.3/ProjectForgottenLauncher.jar",
@@ -7,6 +7,11 @@
     "size": 334651
   },
   "news": [
+    {
+      "title": "True 3D first-person viewmodel + a rebuilt pause menu",
+      "date": "2026-06-22",
+      "body": "Replaced the 2D held-item with a real 3D viewmodel via CubeRenderer: anchor a local transform to inverse(camera.view()) so it renders in clean view space. Held blocks are textured cubes, tools/items angled sprites, empty hand a 3D arm on a new procedural skin tile. Depth cleared first so the world can't clip it; per-type swings rotate it in 3D; walk-bob translates it."
+    },
     {
       "title": "First-person hand & held items with Beta-style swings, bigger inventory, cleaner pause/settings",
       "date": "2026-06-22",
@@ -41,11 +46,6 @@
       "title": "Fix: register furnace crafting recipe (8 cobblestone ring)",
       "date": "2026-06-19",
       "body": "The furnace system shipped in 0.4.0 but the crafting recipe itself was never registered, so a correct 8-cobble ring produced no output. Added a ring() shape check (cobblestone -> furnace) plus a progtest case. 30/30 checks pass."
-    },
-    {
-      "title": "Furnaces, smelting, tool progression: iron/diamond tools, durability, mining tiers",
-      "date": "2026-06-19",
-      "body": "Smelting: added Sand->Glass alongside iron/gold ore; data-driven smelt map. Fuel system generalised off coal-only - Coal=8 smelts, Logs/Planks=1.5, Wooden tools=1; burn + cook progress persist."
     }
   ],
   "versions": {
@@ -255,6 +255,17 @@
           "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.7.0/ProjectForgotten-0.7.0.jar",
           "sha256": "abf10e3abea9cd5d19b3f942ad712b2d4a21f131250bdd3cc91afa2df15aae4a",
           "size": 6566862
+        }
+      ]
+    },
+    "0.7.1": {
+      "main": "ProjectForgotten-0.7.1.jar",
+      "files": [
+        {
+          "path": "ProjectForgotten-0.7.1.jar",
+          "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.7.1/ProjectForgotten-0.7.1.jar",
+          "sha256": "a609b96538eeb970f08041f72a67871b5ccf25d6c84abde46b2fe592cfe05fbf",
+          "size": 6567394
         }
       ]
     }
