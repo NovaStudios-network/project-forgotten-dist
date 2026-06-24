@@ -1,5 +1,5 @@
 {
-  "latest": "0.7.1",
+  "latest": "0.7.2",
   "launcher": {
     "version": "1.0.0",
     "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.3/ProjectForgottenLauncher.jar",
@@ -7,6 +7,11 @@
     "size": 334651
   },
   "news": [
+    {
+      "title": "Beta-accurate first-person swing, single-sprite torches, breakable placed torches",
+      "date": "2026-06-24",
+      "body": "Rebuilt the viewmodel swing to match Minecraft Beta: translate to the hand first, then rotateY(45) and the swing rotations (f7 -20 Y, f8 -20 Z, f8 -80 X) so the item pivots at the hand and swings down-and-inward instead of sideways. One swing curve for mining/placing/attacking."
+    },
     {
       "title": "True 3D first-person viewmodel + a rebuilt pause menu",
       "date": "2026-06-22",
@@ -41,11 +46,6 @@
       "title": "Fix: die in the void instead of falling forever out of the world",
       "date": "2026-06-22",
       "body": "Falling past the world floor (y < -16) now applies heavy continuous damage (14 hp/s) with a heart flash, ending at the death screen with 'You fell out of the world.' ~1.5s from full health, so it reads as suffocating in the void rather than an endless fall."
-    },
-    {
-      "title": "Fix: register furnace crafting recipe (8 cobblestone ring)",
-      "date": "2026-06-19",
-      "body": "The furnace system shipped in 0.4.0 but the crafting recipe itself was never registered, so a correct 8-cobble ring produced no output. Added a ring() shape check (cobblestone -> furnace) plus a progtest case. 30/30 checks pass."
     }
   ],
   "versions": {
@@ -266,6 +266,17 @@
           "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.7.1/ProjectForgotten-0.7.1.jar",
           "sha256": "a609b96538eeb970f08041f72a67871b5ccf25d6c84abde46b2fe592cfe05fbf",
           "size": 6567394
+        }
+      ]
+    },
+    "0.7.2": {
+      "main": "ProjectForgotten-0.7.2.jar",
+      "files": [
+        {
+          "path": "ProjectForgotten-0.7.2.jar",
+          "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.7.2/ProjectForgotten-0.7.2.jar",
+          "sha256": "5680751828ebc7b8e3ce075cc9b7d5da204eb89572410dc0ad50228ad714985d",
+          "size": 6567344
         }
       ]
     }
