@@ -1,5 +1,5 @@
 {
-  "latest": "0.7.11",
+  "latest": "0.8.0",
   "launcher": {
     "version": "1.0.0",
     "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.3/ProjectForgottenLauncher.jar",
@@ -7,6 +7,11 @@
     "size": 334651
   },
   "news": [
+    {
+      "title": "Bake in per-category held-item poses (torch/tool/stick/material)",
+      "date": "2026-06-24",
+      "body": "Applied the hand-tuned first-person poses from in-game dev mode: separate position/rotation/scale for torches, tools, sticks and materials, selected automatically by the held item. F6 dev mode still overrides for future tuning."
+    },
     {
       "title": "Viewmodel dev mode: live tune position/rotation/scale (F6)",
       "date": "2026-06-24",
@@ -41,11 +46,6 @@
       "title": "Match held-item pose to Beta reference (tilt, scale, corner anchor)",
       "date": "2026-06-24",
       "body": "Flipped the in-plane tilt the correct way, restored scale to 0.5, and anchored the handle in the bottom-right corner so the pickaxe reaches toward centre and the torch leans up-left, matching the Beta screenshots."
-    },
-    {
-      "title": "Tune held-item pose toward Beta (smaller, lower-right, corrected tilt)",
-      "date": "2026-06-24",
-      "body": "Scaled the 3D held item down (0.62->0.42), pushed the hand anchor into the lower-right corner, and adjusted the in-plane tilt so tools/torches sit like Beta instead of looming large and central. The extrusion pipeline itself is unchanged."
     }
   ],
   "versions": {
@@ -376,6 +376,17 @@
           "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.7.11/ProjectForgotten-0.7.11.jar",
           "sha256": "3c348ed90ef920e18392d18ff0a1c34f79f9c2a7637964efac66c5f1d67888e7",
           "size": 6573768
+        }
+      ]
+    },
+    "0.8.0": {
+      "main": "ProjectForgotten-0.8.0.jar",
+      "files": [
+        {
+          "path": "ProjectForgotten-0.8.0.jar",
+          "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.8.0/ProjectForgotten-0.8.0.jar",
+          "sha256": "4d968b2bc49607aaf2d76daa9efb212f84b854b6d2da667b63c13d0f9c78bdec",
+          "size": 6574242
         }
       ]
     }
