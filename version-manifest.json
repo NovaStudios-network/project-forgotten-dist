@@ -1,5 +1,5 @@
 {
-  "latest": "0.7.2",
+  "latest": "0.7.3",
   "launcher": {
     "version": "1.0.0",
     "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.3/ProjectForgottenLauncher.jar",
@@ -7,6 +7,11 @@
     "size": 334651
   },
   "news": [
+    {
+      "title": "Extruded 3D held-item pipeline — items render as real models with depth",
+      "date": "2026-06-24",
+      "body": "Replaced the flat-quad held item with a HeldItemRenderer that extrudes each icon into a 3D mesh: per opaque texel a front+back face plus silhouette side faces, one texel thick, with baked per-face shade via a new item.vert/frag. Meshes cache per atlas layer, so every tool/stick/torch and any future item gets real depth automatically. Empty hand uses the same renderer's shaded box on the skin tile; held full blocks stay cubes. Added TextureAtlas.texelSolid."
+    },
     {
       "title": "Beta-accurate first-person swing, single-sprite torches, breakable placed torches",
       "date": "2026-06-24",
@@ -41,11 +46,6 @@
       "title": "Gave the menus a proper pass — one consistent look across every screen",
       "date": "2026-06-22",
       "body": "Every menu page now shares one design language: same panels, same buttons, and a gold stamp-and-rule header (drawPanelHeader). Added a danger button style that tints red on focus for Quit / Save & Leave / Delete."
-    },
-    {
-      "title": "Fix: die in the void instead of falling forever out of the world",
-      "date": "2026-06-22",
-      "body": "Falling past the world floor (y < -16) now applies heavy continuous damage (14 hp/s) with a heart flash, ending at the death screen with 'You fell out of the world.' ~1.5s from full health, so it reads as suffocating in the void rather than an endless fall."
     }
   ],
   "versions": {
@@ -277,6 +277,17 @@
           "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.7.2/ProjectForgotten-0.7.2.jar",
           "sha256": "5680751828ebc7b8e3ce075cc9b7d5da204eb89572410dc0ad50228ad714985d",
           "size": 6567344
+        }
+      ]
+    },
+    "0.7.3": {
+      "main": "ProjectForgotten-0.7.3.jar",
+      "files": [
+        {
+          "path": "ProjectForgotten-0.7.3.jar",
+          "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.7.3/ProjectForgotten-0.7.3.jar",
+          "sha256": "65c1e6224b67347ce84c44010f63afb48501d6c300887c1587e389df2e604a34",
+          "size": 6572730
         }
       ]
     }
