@@ -1,5 +1,5 @@
 {
-  "latest": "0.8.2",
+  "latest": "0.8.3",
   "launcher": {
     "version": "1.0.0",
     "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.3/ProjectForgottenLauncher.jar",
@@ -7,6 +7,11 @@
     "size": 334651
   },
   "news": [
+    {
+      "title": "Rebuild the first-person empty hand as a thin forearm (tunable via F6)",
+      "date": "2026-06-24",
+      "body": "The empty hand was a huge slab. Replaced it with a thin forearm-shaped cuboid (fixed cross-section, single Scale resizes it) tucked into the lower-right corner Alpha/Beta style, with a baked POSE_HAND default. It now also responds to F6 dev mode like held items so the pose can be dialed in."
+    },
     {
       "title": "Fix held-item framing: use the ultrawide reference aspect the poses were tuned at",
       "date": "2026-06-24",
@@ -41,11 +46,6 @@
       "title": "Rotate held item onto the Beta diagonal, pull off the right edge",
       "date": "2026-06-24",
       "body": "Increased in-plane rotation to ~55deg anticlockwise so the tool lies along the diagonal (head up-left, handle in corner) and moved the anchor left so it stops clipping the screen edge."
-    },
-    {
-      "title": "Match held pickaxe pose to Beta reference (stronger diagonal, cornered, larger)",
-      "date": "2026-06-24",
-      "body": "Increased the in-plane tilt to ~24deg and scale to 0.56, and dropped the anchor into the lower-right corner so the pickaxe lies on a clean 45deg diagonal with the handle in the corner and head toward centre, like the Beta screenshot."
     }
   ],
   "versions": {
@@ -409,6 +409,17 @@
           "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.8.2/ProjectForgotten-0.8.2.jar",
           "sha256": "018d1c9937e964a2358054de32e34ae005c98c1efee7eebd1e6228eb8d61fbea",
           "size": 6574368
+        }
+      ]
+    },
+    "0.8.3": {
+      "main": "ProjectForgotten-0.8.3.jar",
+      "files": [
+        {
+          "path": "ProjectForgotten-0.8.3.jar",
+          "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.8.3/ProjectForgotten-0.8.3.jar",
+          "sha256": "245e8a33e583aa7f0eb171bc1ae3fca3ff2e91da1fd9c780274fdad6ae552ec3",
+          "size": 6574554
         }
       ]
     }
