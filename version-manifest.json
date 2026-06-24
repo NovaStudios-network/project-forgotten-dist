@@ -1,5 +1,5 @@
 {
-  "latest": "0.8.0",
+  "latest": "0.8.1",
   "launcher": {
     "version": "1.0.0",
     "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.3/ProjectForgottenLauncher.jar",
@@ -7,6 +7,11 @@
     "size": 334651
   },
   "news": [
+    {
+      "title": "Render held item through a fixed-aspect projection (consistent on any screen)",
+      "date": "2026-06-24",
+      "body": "The viewmodel was positioned with the window's projection, so changing aspect ratio (ultrawide -> normal, or dragging between monitors) shoved the held item into the corner. Now it renders through a fixed 16:9 projection (Camera.viewProjForAspect) while the world stays at the native aspect, so the item is framed identically on any screen shape or size."
+    },
     {
       "title": "Bake in per-category held-item poses (torch/tool/stick/material)",
       "date": "2026-06-24",
@@ -41,11 +46,6 @@
       "title": "Stop held items clipping the bottom-right corner (anchor pulled up/in)",
       "date": "2026-06-24",
       "body": "Moved the viewmodel hand anchor up and slightly inward so torches and narrow items stay fully visible in the lower-right instead of being cut off by the screen edge."
-    },
-    {
-      "title": "Match held-item pose to Beta reference (tilt, scale, corner anchor)",
-      "date": "2026-06-24",
-      "body": "Flipped the in-plane tilt the correct way, restored scale to 0.5, and anchored the handle in the bottom-right corner so the pickaxe reaches toward centre and the torch leans up-left, matching the Beta screenshots."
     }
   ],
   "versions": {
@@ -387,6 +387,17 @@
           "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.8.0/ProjectForgotten-0.8.0.jar",
           "sha256": "4d968b2bc49607aaf2d76daa9efb212f84b854b6d2da667b63c13d0f9c78bdec",
           "size": 6574242
+        }
+      ]
+    },
+    "0.8.1": {
+      "main": "ProjectForgotten-0.8.1.jar",
+      "files": [
+        {
+          "path": "ProjectForgotten-0.8.1.jar",
+          "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.8.1/ProjectForgotten-0.8.1.jar",
+          "sha256": "9772cb334d103cd52f34961ed6d6219842ce85fadabd095c79f2b3805dbef481",
+          "size": 6574364
         }
       ]
     }
