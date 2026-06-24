@@ -1,5 +1,5 @@
 {
-  "latest": "0.7.4",
+  "latest": "0.7.5",
   "launcher": {
     "version": "1.0.0",
     "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.3/ProjectForgottenLauncher.jar",
@@ -7,6 +7,11 @@
     "size": 334651
   },
   "news": [
+    {
+      "title": "Match held-item pose to Beta reference (tilt, scale, corner anchor)",
+      "date": "2026-06-24",
+      "body": "Flipped the in-plane tilt the correct way, restored scale to 0.5, and anchored the handle in the bottom-right corner so the pickaxe reaches toward centre and the torch leans up-left, matching the Beta screenshots."
+    },
     {
       "title": "Tune held-item pose toward Beta (smaller, lower-right, corrected tilt)",
       "date": "2026-06-24",
@@ -41,11 +46,6 @@
       "title": "Credits are a campfire now — found a fire still burning in the woods at dusk",
       "date": "2026-06-22",
       "body": "Replaced the credits panel with a full in-world scene drawn from the 2D primitives: evening sky gradient + stars + drifting cloud, two parallax pine-silhouette rows with fog, a flickering layered campfire with rising embers, fireflies, and a slow handheld camera sway. The names fade in over the fire (no panel) on a timeline, hero name pulsing in ember-gold. Only control is a carved Return plank that warms and bobs on hover. Ambience: wind, distant birds, faint fire crackle. Respects Reduce Motion."
-    },
-    {
-      "title": "Fix cramped Credits/Multiplayer pages — text no longer runs under the button",
-      "date": "2026-06-22",
-      "body": "The panels were too short for the copy, so body text overlapped the Back button. Rebuilt both pages: vertically-centred panel, a fenced footer (divider + bottom-anchored button) the text can't collide with, tighter wording, and a hero wordmark with room to breathe. Panel heights are derived from content now."
     }
   ],
   "versions": {
@@ -299,6 +299,17 @@
           "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.7.4/ProjectForgotten-0.7.4.jar",
           "sha256": "c2a0147c720d1feb9cdae151dca2c2e54d37a531dfcde625d01adf91763c6793",
           "size": 6572723
+        }
+      ]
+    },
+    "0.7.5": {
+      "main": "ProjectForgotten-0.7.5.jar",
+      "files": [
+        {
+          "path": "ProjectForgotten-0.7.5.jar",
+          "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.7.5/ProjectForgotten-0.7.5.jar",
+          "sha256": "36127ec820f237223dbb644116cc2aea0cf3e2e4fbc63b3be17e15c4ef688dff",
+          "size": 6572716
         }
       ]
     }
