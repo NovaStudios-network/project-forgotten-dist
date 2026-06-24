@@ -1,5 +1,5 @@
 {
-  "latest": "0.7.3",
+  "latest": "0.7.4",
   "launcher": {
     "version": "1.0.0",
     "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.3/ProjectForgottenLauncher.jar",
@@ -7,6 +7,11 @@
     "size": 334651
   },
   "news": [
+    {
+      "title": "Tune held-item pose toward Beta (smaller, lower-right, corrected tilt)",
+      "date": "2026-06-24",
+      "body": "Scaled the 3D held item down (0.62->0.42), pushed the hand anchor into the lower-right corner, and adjusted the in-plane tilt so tools/torches sit like Beta instead of looming large and central. The extrusion pipeline itself is unchanged."
+    },
     {
       "title": "Extruded 3D held-item pipeline — items render as real models with depth",
       "date": "2026-06-24",
@@ -41,11 +46,6 @@
       "title": "Fix cramped Credits/Multiplayer pages — text no longer runs under the button",
       "date": "2026-06-22",
       "body": "The panels were too short for the copy, so body text overlapped the Back button. Rebuilt both pages: vertically-centred panel, a fenced footer (divider + bottom-anchored button) the text can't collide with, tighter wording, and a hero wordmark with room to breathe. Panel heights are derived from content now."
-    },
-    {
-      "title": "Gave the menus a proper pass — one consistent look across every screen",
-      "date": "2026-06-22",
-      "body": "Every menu page now shares one design language: same panels, same buttons, and a gold stamp-and-rule header (drawPanelHeader). Added a danger button style that tints red on focus for Quit / Save & Leave / Delete."
     }
   ],
   "versions": {
@@ -288,6 +288,17 @@
           "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.7.3/ProjectForgotten-0.7.3.jar",
           "sha256": "65c1e6224b67347ce84c44010f63afb48501d6c300887c1587e389df2e604a34",
           "size": 6572730
+        }
+      ]
+    },
+    "0.7.4": {
+      "main": "ProjectForgotten-0.7.4.jar",
+      "files": [
+        {
+          "path": "ProjectForgotten-0.7.4.jar",
+          "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.7.4/ProjectForgotten-0.7.4.jar",
+          "sha256": "c2a0147c720d1feb9cdae151dca2c2e54d37a531dfcde625d01adf91763c6793",
+          "size": 6572723
         }
       ]
     }
