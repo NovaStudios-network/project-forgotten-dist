@@ -1,5 +1,5 @@
 {
-  "latest": "0.7.9",
+  "latest": "0.7.10",
   "launcher": {
     "version": "1.0.0",
     "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.3/ProjectForgottenLauncher.jar",
@@ -7,6 +7,11 @@
     "size": 334651
   },
   "news": [
+    {
+      "title": "Add live in-game held-item tuning ([ ] rotate, - = scale) with HUD readout",
+      "date": "2026-06-24",
+      "body": "Stops the blind guess-and-rebuild loop: the held-item rotation and scale are now adjustable in real time with bracket and minus/equals keys, shown live on the HUD. Reset to an upright starting angle. Once dialled in by eye, the values can be baked as the defaults."
+    },
     {
       "title": "Flip held item 180 degrees per feedback",
       "date": "2026-06-24",
@@ -41,11 +46,6 @@
       "title": "Extruded 3D held-item pipeline — items render as real models with depth",
       "date": "2026-06-24",
       "body": "Replaced the flat-quad held item with a HeldItemRenderer that extrudes each icon into a 3D mesh: per opaque texel a front+back face plus silhouette side faces, one texel thick, with baked per-face shade via a new item.vert/frag. Meshes cache per atlas layer, so every tool/stick/torch and any future item gets real depth automatically. Empty hand uses the same renderer's shaded box on the skin tile; held full blocks stay cubes. Added TextureAtlas.texelSolid."
-    },
-    {
-      "title": "Beta-accurate first-person swing, single-sprite torches, breakable placed torches",
-      "date": "2026-06-24",
-      "body": "Rebuilt the viewmodel swing to match Minecraft Beta: translate to the hand first, then rotateY(45) and the swing rotations (f7 -20 Y, f8 -20 Z, f8 -80 X) so the item pivots at the hand and swings down-and-inward instead of sideways. One swing curve for mining/placing/attacking."
     }
   ],
   "versions": {
@@ -354,6 +354,17 @@
           "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.7.9/ProjectForgotten-0.7.9.jar",
           "sha256": "1a6dcf20165f837f05bd6980abcb84d306b8aae369e3fc3db921f7869f29c416",
           "size": 6572722
+        }
+      ]
+    },
+    "0.7.10": {
+      "main": "ProjectForgotten-0.7.10.jar",
+      "files": [
+        {
+          "path": "ProjectForgotten-0.7.10.jar",
+          "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.7.10/ProjectForgotten-0.7.10.jar",
+          "sha256": "425996535a0143879697dcff4956bcfe7053b84d56bfe408308391bf9c8800bb",
+          "size": 6572929
         }
       ]
     }
