@@ -1,5 +1,5 @@
 {
-  "latest": "0.9.0",
+  "latest": "0.10.0",
   "launcher": {
     "version": "1.0.0",
     "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.3/ProjectForgottenLauncher.jar",
@@ -7,6 +7,11 @@
     "size": 334651
   },
   "news": [
+    {
+      "title": "Ambient music + mining sounds + per-material dig/break/place",
+      "date": "2026-06-24",
+      "body": "The world has a voice now. Sparse generative piano drifts in now and then —"
+    },
     {
       "title": "Redesign Settings and Pause menus; sharpen Credits copy",
       "date": "2026-06-24",
@@ -41,11 +46,6 @@
       "title": "Add live in-game held-item tuning ([ ] rotate, - = scale) with HUD readout",
       "date": "2026-06-24",
       "body": "Stops the blind guess-and-rebuild loop: the held-item rotation and scale are now adjustable in real time with bracket and minus/equals keys, shown live on the HUD. Reset to an upright starting angle. Once dialled in by eye, the values can be baked as the defaults."
-    },
-    {
-      "title": "Flip held item 180 degrees per feedback",
-      "date": "2026-06-24",
-      "body": "Rotated the held-tool in-plane orientation a half-turn (55 -> -125) so it sits the right way up."
     }
   ],
   "versions": {
@@ -431,6 +431,17 @@
           "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.9.0/ProjectForgotten-0.9.0.jar",
           "sha256": "feacbd6bb03f495e1337c8f6cc5991e14b73f1bd9631965ed7f44379e72a5839",
           "size": 6575888
+        }
+      ]
+    },
+    "0.10.0": {
+      "main": "ProjectForgotten-0.10.0.jar",
+      "files": [
+        {
+          "path": "ProjectForgotten-0.10.0.jar",
+          "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.10.0/ProjectForgotten-0.10.0.jar",
+          "sha256": "3d3b01a31677b517c3800a6cec11a642a9344a15cc2f92781d04dbdd3456e77d",
+          "size": 6577865
         }
       ]
     }
