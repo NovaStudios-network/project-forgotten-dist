@@ -1,5 +1,5 @@
 {
-  "latest": "0.8.3",
+  "latest": "0.9.0",
   "launcher": {
     "version": "1.0.0",
     "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.2.3/ProjectForgottenLauncher.jar",
@@ -7,6 +7,11 @@
     "size": 334651
   },
   "news": [
+    {
+      "title": "Redesign Settings and Pause menus; sharpen Credits copy",
+      "date": "2026-06-24",
+      "body": "Settings: accent header, segmented gold tabs, card rows, colour-coded toggle pills (green On / dim red Off), and a per-setting description strip explaining the focused option. Kept hit-area geometry, restyled the visuals. Pause: replaced the centered panel with a left-anchored cinematic layout over the dimmed world (PAUSED stamp, world name, Day/time/seed stat block, title-style focus-box menu). Credits: clearer role descriptions and wording."
+    },
     {
       "title": "Rebuild the first-person empty hand as a thin forearm (tunable via F6)",
       "date": "2026-06-24",
@@ -41,11 +46,6 @@
       "title": "Flip held item 180 degrees per feedback",
       "date": "2026-06-24",
       "body": "Rotated the held-tool in-plane orientation a half-turn (55 -> -125) so it sits the right way up."
-    },
-    {
-      "title": "Rotate held item onto the Beta diagonal, pull off the right edge",
-      "date": "2026-06-24",
-      "body": "Increased in-plane rotation to ~55deg anticlockwise so the tool lies along the diagonal (head up-left, handle in corner) and moved the anchor left so it stops clipping the screen edge."
     }
   ],
   "versions": {
@@ -420,6 +420,17 @@
           "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.8.3/ProjectForgotten-0.8.3.jar",
           "sha256": "245e8a33e583aa7f0eb171bc1ae3fca3ff2e91da1fd9c780274fdad6ae552ec3",
           "size": 6574554
+        }
+      ]
+    },
+    "0.9.0": {
+      "main": "ProjectForgotten-0.9.0.jar",
+      "files": [
+        {
+          "path": "ProjectForgotten-0.9.0.jar",
+          "url": "https://github.com/NovaStudios-network/project-forgotten-dist/releases/download/v0.9.0/ProjectForgotten-0.9.0.jar",
+          "sha256": "feacbd6bb03f495e1337c8f6cc5991e14b73f1bd9631965ed7f44379e72a5839",
+          "size": 6575888
         }
       ]
     }
